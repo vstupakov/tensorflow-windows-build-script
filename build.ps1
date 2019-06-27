@@ -137,8 +137,7 @@ if (!(CheckInstalled python "3.6.7")) {
 
 # Get the source code of Tensorflow and checkout to the specific version.
 if (!$ReserveSource) {
-    git clone https://github.com/tensorflow/tensorflow.git
-    Rename-Item tensorflow source
+    git clone https://github.com/tensorflow/tensorflow.git source
     Set-Location source
 } else {
     Set-Location source
@@ -162,7 +161,7 @@ if ($buildVersion -eq "v1.11.0") {
     Copy-Item ..\patches\eigen_half.patch third_party\
 } elseif ($buildVersion -eq "v1.13.1") {
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-    (Invoke-WebRequest https://github.com/tensorflow/tensorflow/commit/ec727016282383aacf9d26386b01f6bdbd65b14b.patch).Content | git apply -v --ignore-space-change --ignore-white
+    (Invoke-WebRequest -UseBasicParsing https://github.com/tensorflow/tensorflow/commit/ec727016282383aacf9d26386b01f6bdbd65b14b.patch).Content | git apply -v --ignore-space-change --ignore-white
 }
 
 if ($BuildCppAPI) {
