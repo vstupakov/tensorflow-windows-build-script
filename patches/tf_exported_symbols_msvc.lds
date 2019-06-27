@@ -40,3 +40,21 @@ EXPORTS
     ?CopyFromInternal@Tensor@tensorflow@@AEAAXAEBV12@AEBVTensorShape@2@@Z
     ??1NodeDef@tensorflow@@UEAA@XZ
     ??0NodeDef@tensorflow@@QEAA@AEBV01@@Z
+
+    ??_7ConfigProto@tensorflow@@6B@
+    ?InternalSwap@ConfigProto@tensorflow@@AEAAXPEAV12@@Z
+    ?CopyFrom@ConfigProto@tensorflow@@QEAAXAEBV12@@Z
+    ??0ConfigProto@tensorflow@@QEAA@XZ
+    ?fixed_address_empty_string@internal@protobuf@google@@3V?$ExplicitlyConstructed@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@123@A
+    ??$CreateMaybeMessage@VGPUOptions@tensorflow@@$$V@Arena@protobuf@google@@CAPEAVGPUOptions@tensorflow@@PEAV012@@Z
+    ?tensor_data@Tensor@tensorflow@@QEBA?AVstring_view@absl@@XZ
+    ?dim_sizes@?$TensorShapeBase@VTensorShape@tensorflow@@@tensorflow@@QEBA?AV?$InlinedVector@_J$03V?$allocator@_J@std@@@absl@@XZ
+    ?PlatformWithName@MultiPlatformManager@stream_executor@@SA?AV?$StatusOr@PEAVPlatform@stream_executor@@@port@2@Vstring_view@absl@@@Z
+    ?DeviceMemoryUsage@StreamExecutor@stream_executor@@QEBA_NPEA_J0@Z
+    ?Crash@Helper@internal_statusor@port@stream_executor@@SAXAEBVStatus@tensorflow@@@Z
+    ?PlatformWithName@MultiPlatformManager@stream_executor@@SA?AV?$StatusOr@PEAVPlatform@stream_executor@@@port@2@Vstring_view@absl@@@Z
+    ??1LogMessage@internal@tensorflow@@UEAA@XZ
+    ??0LogMessage@internal@tensorflow@@QEAA@PEBDHH@Z
+    ?OnArenaAllocation@Arena@protobuf@google@@AEBAXPEBVtype_info@@_K@Z
+    ?AllocateAlignedAndAddCleanup@ArenaImpl@internal@protobuf@google@@QEAAPEAX_KP6AXPEAX@Z@Z
+    ?AllocateAligned@ArenaImpl@internal@protobuf@google@@QEAAPEAX_K@Z
