@@ -59,3 +59,8 @@ EXPORTS
     ?AllocateAlignedAndAddCleanup@ArenaImpl@internal@protobuf@google@@QEAAPEAX_KP6AXPEAX@Z@Z
     ?AllocateAligned@ArenaImpl@internal@protobuf@google@@QEAAPEAX_K@Z
     ?GPUMachineManager@tensorflow@@YAPEAVPlatform@stream_executor@@XZ
+    ??4LogFinisher@internal@protobuf@google@@QEAAXAEAVLogMessage@123@@Z
+    ??6LogMessage@internal@protobuf@google@@QEAAAEAV0123@PEBD@Z
+    ??1LogMessage@internal@protobuf@google@@QEAA@XZ
+    ??0LogMessage@internal@protobuf@google@@QEAA@W4LogLevel@23@PEBDH@Z
+    
