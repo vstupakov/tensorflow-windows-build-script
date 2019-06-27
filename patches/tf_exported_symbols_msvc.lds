@@ -58,3 +58,4 @@ EXPORTS
     ?OnArenaAllocation@Arena@protobuf@google@@AEBAXPEBVtype_info@@_K@Z
     ?AllocateAlignedAndAddCleanup@ArenaImpl@internal@protobuf@google@@QEAAPEAX_KP6AXPEAX@Z@Z
     ?AllocateAligned@ArenaImpl@internal@protobuf@google@@QEAAPEAX_K@Z
+    ?GPUMachineManager@tensorflow@@YAPEAVPlatform@stream_executor@@XZ
